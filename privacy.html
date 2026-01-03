@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Design Vision Constructions & Interiors</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { primary: '#0F1A2A', accent: '#C9A227', bg: '#F4F1EA', text: '#2E2E2E', muted: '#7A7A7A' },
+          fontFamily: { heading: ['Playfair Display', 'serif'], body: ['Poppins', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/interactive.css">
+</head>
+<body class="font-body bg-bg text-text antialiased">
+  <div class="scroll-progress"></div>
+  <header class="header fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95 backdrop-blur-lg shadow-lg">
+    <div class="max-w-7xl mx-auto px-6 py-4">
+      <div class="flex items-center justify-between">
+        <a href="index.html" class="flex items-center gap-3 group">
+          <div class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center"><span class="font-heading text-primary font-bold text-xl">DV</span></div>
+          <div><span class="font-heading text-primary font-semibold text-lg block">Design Vision</span><span class="text-xs text-muted uppercase tracking-widest">Constructions & Interiors</span></div>
+        </a>
+        <nav class="hidden lg:flex items-center gap-8">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="services.html" class="nav-link">Services</a>
+          <a href="portfolio.html" class="nav-link">Portfolio</a>
+          <a href="contact.html" class="btn-primary text-sm px-6 py-2">Get Quote</a>
+        </nav>
+        <button class="mobile-menu-btn lg:hidden w-10 h-10 flex items-center justify-center" aria-label="Toggle menu"><svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      </div>
+    </div>
+  </header>
+  <div class="mobile-menu-overlay"></div>
+  <nav class="mobile-nav lg:hidden">
+    <div class="p-6 flex justify-between items-center border-b border-white/10">
+      <span class="font-heading text-white text-xl">Menu</span>
+      <button class="mobile-close-btn w-10 h-10 flex items-center justify-center" aria-label="Close menu"><svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></button>
+    </div>
+    <div class="p-6 space-y-4">
+      <a href="index.html" class="block py-3 text-white text-lg hover:text-accent">Home</a>
+      <a href="about.html" class="block py-3 text-white text-lg hover:text-accent">About</a>
+      <a href="services.html" class="block py-3 text-white text-lg hover:text-accent">Services</a>
+      <a href="portfolio.html" class="block py-3 text-white text-lg hover:text-accent">Portfolio</a>
+      <a href="contact.html" class="block mt-6 btn-primary text-center">Get Quote</a>
+    </div>
+  </nav>
+  <section class="page-header">
+    <div class="relative z-10 max-w-7xl mx-auto px-6 py-24 text-center">
+      <h1 class="font-heading text-4xl md:text-5xl font-bold text-white mb-6">Privacy Policy</h1>
+      <p class="text-lg text-white/80 max-w-2xl mx-auto">How we collect, use, and protect your information.</p>
+    </div>
+  </section>
+  <section class="section bg-white">
+    <div class="max-w-4xl mx-auto prose prose-lg">
+      <h2 class="font-heading text-2xl font-semibold text-primary mb-4">Information We Collect</h2>
+      <p class="text-muted leading-relaxed mb-6">We may collect personal information such as your name, email address, phone number, and project details when you submit a contact form or request a consultation.</p>
+      <h2 class="font-heading text-2xl font-semibold text-primary mb-4">How We Use Your Information</h2>
+      <p class="text-muted leading-relaxed mb-6">We use your information to respond to inquiries, provide services, send project updates, and improve our website and services. We do not sell or share your personal information with third parties for marketing purposes.</p>
+      <h2 class="font-heading text-2xl font-semibold text-primary mb-4">Data Security</h2>
+      <p class="text-muted leading-relaxed mb-6">We implement appropriate security measures to protect your personal information from unauthorized access, alteration, or disclosure.</p>
+      <h2 class="font-heading text-2xl font-semibold text-primary mb-4">Cookies</h2>
+      <p class="text-muted leading-relaxed mb-6">Our website may use cookies to enhance user experience. You can disable cookies in your browser settings.</p>
+      <h2 class="font-heading text-2xl font-semibold text-primary mb-4">Contact Us</h2>
+      <p class="text-muted leading-relaxed mb-6">If you have questions about this privacy policy, please contact us at info@designvision.com.</p>
+      <p class="text-muted text-sm mt-8">Last updated: January 2024</p>
+    </div>
+  </section>
+  <footer class="bg-primary text-white pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center text-white/50 text-sm">© 2024 Design Vision Constructions & Interiors. All rights reserved.</div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

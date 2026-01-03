@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Design Vision Constructions & Interiors</title>
+  <meta name="description" content="Interior design tips, trends, and insights from Design Vision. Stay updated with the latest in luxury interior design and construction.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { primary: '#0F1A2A', accent: '#C9A227', bg: '#F4F1EA', text: '#2E2E2E', muted: '#7A7A7A' },
+          fontFamily: { heading: ['Playfair Display', 'serif'], body: ['Poppins', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/interactive.css">
+</head>
+<body class="font-body bg-bg text-text antialiased">
+  <div class="scroll-progress"></div>
+  <header class="header fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95 backdrop-blur-lg shadow-lg">
+    <div class="max-w-7xl mx-auto px-6 py-4">
+      <div class="flex items-center justify-between">
+        <a href="index.html" class="flex items-center gap-3 group">
+          <div class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center"><span class="font-heading text-primary font-bold text-xl">DV</span></div>
+          <div><span class="font-heading text-primary font-semibold text-lg block">Design Vision</span><span class="text-xs text-muted uppercase tracking-widest">Constructions & Interiors</span></div>
+        </a>
+        <nav class="hidden lg:flex items-center gap-8">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="services.html" class="nav-link">Services</a>
+          <a href="portfolio.html" class="nav-link">Portfolio</a>
+          <a href="contact.html" class="btn-primary text-sm px-6 py-2">Get Quote</a>
+        </nav>
+        <button class="mobile-menu-btn lg:hidden w-10 h-10 flex items-center justify-center" aria-label="Toggle menu"><svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      </div>
+    </div>
+  </header>
+  <div class="mobile-menu-overlay"></div>
+  <nav class="mobile-nav lg:hidden">
+    <div class="p-6 flex justify-between items-center border-b border-white/10">
+      <span class="font-heading text-white text-xl">Menu</span>
+      <button class="mobile-close-btn w-10 h-10 flex items-center justify-center" aria-label="Close menu"><svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></button>
+    </div>
+    <div class="p-6 space-y-4">
+      <a href="index.html" class="block py-3 text-white text-lg hover:text-accent">Home</a>
+      <a href="about.html" class="block py-3 text-white text-lg hover:text-accent">About</a>
+      <a href="services.html" class="block py-3 text-white text-lg hover:text-accent">Services</a>
+      <a href="portfolio.html" class="block py-3 text-white text-lg hover:text-accent">Portfolio</a>
+      <a href="contact.html" class="block mt-6 btn-primary text-center">Get Quote</a>
+    </div>
+  </nav>
+  <a href="https://wa.me/1234567890" class="whatsapp-float hidden sm:flex" aria-label="Contact us on WhatsApp"><svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+  <button class="back-to-top" aria-label="Back to top"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg></button>
+  <section class="page-header">
+    <div class="relative z-10 max-w-7xl mx-auto px-6 py-24 text-center">
+      <p class="section-subtitle text-white/80 mb-4">Our Blog</p>
+      <h1 class="font-heading text-4xl md:text-5xl font-bold text-white mb-6">Design Insights & Tips</h1>
+      <p class="text-lg text-white/80 max-w-2xl mx-auto">Expert advice on interior design, home improvement, and creating beautiful spaces.</p>
+      <nav class="mt-8" aria-label="Breadcrumb"><ol class="flex items-center justify-center gap-2 text-sm"><li><a href="index.html" class="breadcrumb-link">Home</a></li><li class="breadcrumb-separator">/</li><li class="breadcrumb-current">Blog</li></ol></nav>
+    </div>
+  </section>
+  <section class="section bg-white">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <article class="blog-card reveal-on-scroll">
+        <div class="overflow-hidden"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=600&q=80" alt="2024 Interior Design Trends" class="w-full h-48 object-cover"></div>
+        <div class="p-6"><span class="badge mb-3">Trends</span><h3 class="font-heading text-xl font-semibold text-primary mb-3"><a href="blog-single.html">Top Interior Design Trends for 2024</a></h3><p class="text-muted text-sm mb-4">Discover the latest trends shaping luxury interior design, from sustainable materials to smart home integration.</p><a href="blog-single.html" class="gold-underline text-accent font-medium">Read More</a></div>
+      </article>
+      <article class="blog-card reveal-on-scroll" style="transition-delay: 100ms;">
+        <div class="overflow-hidden"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Kitchen Renovation Guide" class="w-full h-48 object-cover"></div>
+        <div class="p-6"><span class="badge mb-3">Guide</span><h3 class="font-heading text-xl font-semibold text-primary mb-3"><a href="blog-single.html">Complete Guide to Kitchen Renovation</a></h3><p class="text-muted text-sm mb-4">Everything you need to know about remodeling your kitchen, from budgeting to selecting materials.</p><a href="blog-single.html" class="gold-underline text-accent font-medium">Read More</a></div>
+      </article>
+      <article class="blog-card reveal-on-scroll" style="transition-delay: 200ms;">
+        <div class="overflow-hidden"><img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=80" alt="Small Bathroom Ideas" class="w-full h-48 object-cover"></div>
+        <div class="p-6"><span class="badge mb-3">Tips</span><h3 class="font-heading text-xl font-semibold text-primary mb-3"><a href="blog-single.html">Maximize Small Bathroom Spaces</a></h3><p class="text-muted text-sm mb-4">Clever design solutions to make the most of compact bathrooms without sacrificing style.</p><a href="blog-single.html" class="gold-underline text-accent font-medium">Read More</a></div>
+      </article>
+      <article class="blog-card reveal-on-scroll" style="transition-delay: 300ms;">
+        <div class="overflow-hidden"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Sustainable Design" class="w-full h-48 object-cover"></div>
+        <div class="p-6"><span class="badge mb-3">Sustainability</span><h3 class="font-heading text-xl font-semibold text-primary mb-3"><a href="blog-single.html">Eco-Friendly Interior Design</a></h3><p class="text-muted text-sm mb-4">How to create beautiful spaces using sustainable and environmentally responsible materials.</p><a href="blog-single.html" class="gold-underline text-accent font-medium">Read More</a></div>
+      </article>
+      <article class="blog-card reveal-on-scroll" style="transition-delay: 400ms;">
+        <div class="overflow-hidden"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80" alt="Color Psychology" class="w-full h-48 object-cover"></div>
+        <div class="p-6"><span class="badge mb-3">Color</span><h3 class="font-heading text-xl font-semibold text-primary mb-3"><a href="blog-single.html">Using Color Psychology in Design</a></h3><p class="text-muted text-sm mb-4">Understanding how colors affect mood and choosing the right palette for each room.</p><a href="blog-single.html" class="gold-underline text-accent font-medium">Read More</a></div>
+      </article>
+      <article class="blog-card reveal-on-scroll" style="transition-delay: 500ms;">
+        <div class="overflow-hidden"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Home Office Design" class="w-full h-48 object-cover"></div>
+        <div class="p-6"><span class="badge mb-3">Workspace</span><h3 class="font-heading text-xl font-semibold text-primary mb-3"><a href="blog-single.html">Create the Perfect Home Office</a></h3><p class="text-muted text-sm mb-4">Design tips for creating a productive and inspiring home office space.</p><a href="blog-single.html" class="gold-underline text-accent font-medium">Read More</a></div>
+      </article>
+    </div>
+  </section>
+  <section class="cta-section py-24">
+    <div class="relative z-10 max-w-4xl mx-auto px-6 text-center">
+      <h2 class="font-heading text-3xl md:text-4xl font-bold text-white mb-6">Stay Updated</h2>
+      <p class="text-lg text-white/80 mb-8">Subscribe to our newsletter for design tips and inspiration.</p>
+      <form class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto"><input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"><button type="submit" class="btn-primary bg-accent border-accent text-primary-dark hover:bg-accent-light">Subscribe</button></form>
+    </div>
+  </section>
+  <footer class="bg-primary text-white pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-4 gap-12 mb-12">
+        <div><div class="flex items-center gap-3 mb-6"><div class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center"><span class="font-heading text-primary font-bold text-xl">DV</span></div><div><span class="font-heading font-semibold text-lg block">Design Vision</span><span class="text-xs text-white/60 uppercase tracking-widest">Constructions & Interiors</span></div></div><p class="text-white/70 leading-relaxed">Transforming spaces since 2004.</p></div>
+        <div><h4 class="font-heading text-lg font-semibold mb-6">Quick Links</h4><ul class="space-y-3"><li><a href="index.html" class="footer-link">Home</a></li><li><a href="about.html" class="footer-link">About</a></li><li><a href="services.html" class="footer-link">Services</a></li><li><a href="portfolio.html" class="footer-link">Portfolio</a></li></ul></div>
+        <div><h4 class="font-heading text-lg font-semibold mb-6">Services</h4><ul class="space-y-3"><li><a href="services.html" class="footer-link">Residential</a></li><li><a href="services.html" class="footer-link">Commercial</a></li><li><a href="services.html" class="footer-link">Construction</a></li><li><a href="services.html" class="footer-link">Kitchen & Bath</a></li></ul></div>
+        <div><h4 class="font-heading text-lg font-semibold mb-6">Contact</h4><ul class="space-y-3"><li class="text-white/70">123 Luxury Avenue, NY 10001</li><li class="text-white/70">(234) 567-8900</li><li class="text-white/70">info@designvision.com</li></ul></div>
+      </div>
+      <div class="border-t border-white/10 pt-8 text-center text-white/50 text-sm">© 2024 Design Vision Constructions & Interiors. All rights reserved.</div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

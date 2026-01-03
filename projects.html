@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Projects | Design Vision Constructions & Interiors</title>
+  <meta name="description" content="Explore our complete collection of interior design and construction projects. View detailed case studies of residential and commercial spaces.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0F1A2A', accent: '#C9A227', bg: '#F4F1EA', text: '#2E2E2E', muted: '#7A7A7A',
+          },
+          fontFamily: { heading: ['Playfair Display', 'serif'], body: ['Poppins', 'sans-serif'], },
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/interactive.css">
+</head>
+<body class="font-body bg-bg text-text antialiased">
+  <div class="scroll-progress"></div>
+  <header class="header fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95 backdrop-blur-lg shadow-lg">
+    <div class="max-w-7xl mx-auto px-6 py-4">
+      <div class="flex items-center justify-between">
+        <a href="index.html" class="flex items-center gap-3 group">
+          <div class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center">
+            <span class="font-heading text-primary font-bold text-xl">DV</span>
+          </div>
+          <div><span class="font-heading text-primary font-semibold text-lg block">Design Vision</span><span class="text-xs text-muted uppercase tracking-widest">Constructions & Interiors</span></div>
+        </a>
+        <nav class="hidden lg:flex items-center gap-8">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="services.html" class="nav-link">Services</a>
+          <a href="portfolio.html" class="nav-link active">Portfolio</a>
+          <a href="contact.html" class="btn-primary text-sm px-6 py-2">Get Quote</a>
+        </nav>
+        <button class="mobile-menu-btn lg:hidden w-10 h-10 flex items-center justify-center" aria-label="Toggle menu">
+          <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="mobile-menu-overlay"></div>
+  <nav class="mobile-nav lg:hidden">
+    <div class="p-6 flex justify-between items-center border-b border-white/10">
+      <span class="font-heading text-white text-xl">Menu</span>
+      <button class="mobile-close-btn w-10 h-10 flex items-center justify-center" aria-label="Close menu">
+        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="p-6 space-y-4">
+      <a href="index.html" class="block py-3 text-white text-lg hover:text-accent">Home</a>
+      <a href="about.html" class="block py-3 text-white text-lg hover:text-accent">About</a>
+      <a href="services.html" class="block py-3 text-white text-lg hover:text-accent">Services</a>
+      <a href="portfolio.html" class="block py-3 text-white text-lg hover:text-accent">Portfolio</a>
+      <a href="contact.html" class="block mt-6 btn-primary text-center">Get Quote</a>
+    </div>
+  </nav>
+  <a href="https://wa.me/1234567890" class="whatsapp-float hidden sm:flex" aria-label="Contact us on WhatsApp">
+    <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+  <button class="back-to-top" aria-label="Back to top"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg></button>
+  <section class="page-header">
+    <div class="relative z-10 max-w-7xl mx-auto px-6 py-24 text-center">
+      <p class="section-subtitle text-white/80 mb-4">Our Work</p>
+      <h1 class="font-heading text-4xl md:text-5xl font-bold text-white mb-6">Featured Projects</h1>
+      <p class="text-lg text-white/80 max-w-2xl mx-auto">In-depth case studies showcasing our finest interior design and construction work.</p>
+      <nav class="mt-8" aria-label="Breadcrumb"><ol class="flex items-center justify-center gap-2 text-sm"><li><a href="index.html" class="breadcrumb-link">Home</a></li><li class="breadcrumb-separator">/</li><li><a href="portfolio.html" class="breadcrumb-link">Portfolio</a></li><li class="breadcrumb-separator">/</li><li class="breadcrumb-current">Projects</li></ol></nav>
+    </div>
+  </section>
+  <section class="section bg-white">
+    <div class="space-y-16">
+      <div class="grid lg:grid-cols-2 gap-12 items-center reveal-on-scroll">
+        <div class="order-2 lg:order-1">
+          <span class="badge mb-4">Residential</span>
+          <h2 class="font-heading text-3xl font-semibold text-primary mb-4">Manhattan Penthouse</h2>
+          <p class="text-muted mb-6 leading-relaxed">A complete transformation of a 4,500 sq ft penthouse in Tribeca. This project involved gut renovation of the entire space, custom millwork throughout, and a complete interior design overhaul.</p>
+          <ul class="space-y-2 mb-6 text-sm">
+            <li class="flex items-center text-muted"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>4,500 sq ft complete renovation</li>
+            <li class="flex items-center text-muted"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Custom Italian kitchen</li>
+            <li class="flex items-center text-muted"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Smart home integration</li>
+          </ul>
+          <a href="contact.html" class="btn-primary">Inquire About This Project</a>
+        </div>
+        <div class="order-1 lg:order-2 grid grid-cols-2 gap-4"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=400&q=80" alt="Penthouse living room" class="rounded-lg shadow-card-hover w-full h-48 object-cover"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&q=80" alt="Penthouse kitchen" class="rounded-lg shadow-card-hover w-full h-48 object-cover mt-8"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=400&q=80" alt="Penthouse bedroom" class="rounded-lg shadow-card-hover w-full h-48 object-cover"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&q=80" alt="Penthouse bathroom" class="rounded-lg shadow-card-hover w-full h-48 object-cover mt-8"></div>
+      </div>
+      <div class="grid lg:grid-cols-2 gap-12 items-center reveal-on-scroll">
+        <div class="grid grid-cols-2 gap-4"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=80" alt="Corporate office" class="rounded-lg shadow-card-hover w-full h-48 object-cover mt-8"><img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400&q=80" alt="Meeting room" class="rounded-lg shadow-card-hover w-full h-48 object-cover"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80" alt="Open workspace" class="rounded-lg shadow-card-hover w-full h-48 object-cover"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&q=80" alt="Executive suite" class="rounded-lg shadow-card-hover w-full h-48 object-cover mt-8"></div>
+        <div>
+          <span class="badge mb-4">Commercial</span>
+          <h2 class="font-heading text-3xl font-semibold text-primary mb-4">Tech Startup Headquarters</h2>
+          <p class="text-muted mb-6 leading-relaxed">Design and construction of a 25,000 sq ft open-plan office for a rapidly growing tech company. The space features collaborative zones, quiet work areas, and a stunning rooftop deck.</p>
+          <ul class="space-y-2 mb-6 text-sm">
+            <li class="flex items-center text-muted"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>25,000 sq ft office space</li>
+            <li class="flex items-center text-muted"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Rooftop collaboration deck</li>
+            <li class="flex items-center text-muted"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> LEED Gold certified</li>
+          </ul>
+          <a href="contact.html" class="btn-primary">Inquire About This Project</a>
+        </div>
+      </div>
+      <div class="grid lg:grid-cols-2 gap-12 items-center reveal-on-scroll">
+        <div class="order-2 lg:order-1">
+          <span class="badge mb-4">Luxury</span>
+          <h2 class="font-heading text-3xl font-semibold text-primary mb-4">Beachfront Villa</h2>
+          <p class="text-muted mb-6 leading-relaxed">A stunning 8,000 sq ft Mediterranean-style villa featuring panoramic ocean views, infinity pool, and resort-style outdoor living spaces.</p>
+          <ul class="space-y-2 mb-6 text-sm">
+            <li class="flex items-center text-muted"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>8,000 sq ft new construction</li>
+            <li class="flex items-center text-muted"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Infinity edge pool</li>
+            <li class="flex items-center text-muted"><svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Smart home throughout</li>
+          </ul>
+          <a href="contact.html" class="btn-primary">Inquire About This Project</a>
+        </div>
+        <div class="order-1 lg:order-2 grid grid-cols-2 gap-4"><img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=400&q=80" alt="Villa exterior" class="rounded-lg shadow-card-hover w-full h-48 object-cover"><img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=400&q=80" alt="Villa interior" class="rounded-lg shadow-card-hover w-full h-48 object-cover mt-8"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&q=80" alt="Villa pool" class="rounded-lg shadow-card-hover w-full h-48 object-cover"><img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=400&q=80" alt="Villa living" class="rounded-lg shadow-card-hover w-full h-48 object-cover mt-8"></div>
+      </div>
+    </div>
+  </section>
+  <section class="cta-section py-24">
+    <div class="relative z-10 max-w-4xl mx-auto px-6 text-center">
+      <h2 class="font-heading text-3xl md:text-4xl font-bold text-white mb-6">Ready to Start Your Project?</h2>
+      <p class="text-lg text-white/80 mb-8">Let's discuss how we can bring your vision to life.</p>
+      <a href="contact.html" class="btn-primary bg-accent border-accent text-primary-dark hover:bg-accent-light">Contact Us Today</a>
+    </div>
+  </section>
+  <footer class="bg-primary text-white pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-4 gap-12 mb-12">
+        <div><div class="flex items-center gap-3 mb-6"><div class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center"><span class="font-heading text-primary font-bold text-xl">DV</span></div><div><span class="font-heading font-semibold text-lg block">Design Vision</span><span class="text-xs text-white/60 uppercase tracking-widest">Constructions & Interiors</span></div></div><p class="text-white/70 leading-relaxed">Transforming spaces since 2004.</p></div>
+        <div><h4 class="font-heading text-lg font-semibold mb-6">Quick Links</h4><ul class="space-y-3"><li><a href="index.html" class="footer-link">Home</a></li><li><a href="about.html" class="footer-link">About</a></li><li><a href="services.html" class="footer-link">Services</a></li><li><a href="portfolio.html" class="footer-link">Portfolio</a></li></ul></div>
+        <div><h4 class="font-heading text-lg font-semibold mb-6">Services</h4><ul class="space-y-3"><li><a href="services.html" class="footer-link">Residential</a></li><li><a href="services.html" class="footer-link">Commercial</a></li><li><a href="services.html" class="footer-link">Construction</a></li><li><a href="services.html" class="footer-link">Kitchen & Bath</a></li></ul></div>
+        <div><h4 class="font-heading text-lg font-semibold mb-6">Contact</h4><ul class="space-y-3"><li class="text-white/70">123 Luxury Avenue, NY 10001</li><li class="text-white/70">(234) 567-8900</li><li class="text-white/70">info@designvision.com</li></ul></div>
+      </div>
+      <div class="border-t border-white/10 pt-8 text-center text-white/50 text-sm">© 2024 Design Vision Constructions & Interiors. All rights reserved.</div>
+    </div>
+  </footer>
+  <div class="lightbox"><button class="lightbox-close absolute top-4 right-4 w-10 h-10 flex items-center justify-center bg-white/10 rounded-full text-white" aria-label="Close lightbox"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></button><img src="" alt="" class="lightbox-img max-w-[90vw] max-h-[90vh]"></div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
